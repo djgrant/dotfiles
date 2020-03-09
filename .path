@@ -1,0 +1,6 @@
+PATH=~/bin:$PATH
+
+# brew
+PATH=/usr/local/sbin:$PATH
+
+export PATH

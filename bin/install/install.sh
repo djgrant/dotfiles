@@ -1,14 +1,14 @@
 # Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # NPM
-brew install nvm
-nvm install stable # This installs `npm` too using the recommended installation method
-nvm alias default stable
+# brew install nvm
+# nvm install stable # This installs `npm` too using the recommended installation method
+# nvm alias default stable
 
-# Ruby
-brew install rbenv ruby-build
-rbenv install $(rbenv install -l | grep -v - | tail -1)
+# # Ruby
+# brew install rbenv ruby-build
+# rbenv install $(rbenv install -l | grep -v - | tail -1)
 
 echo “If this was the first time installing npm and rbenv, restart terminal and run the script again“
 read -n 1
